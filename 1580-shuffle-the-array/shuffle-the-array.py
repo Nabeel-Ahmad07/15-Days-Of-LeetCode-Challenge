@@ -12,9 +12,7 @@ class Solution(object):
         newList = []
 
         for i in range(n):
-            for j in range(1):
-                newList.append(firstList[i])
-            for k in range(1):
-                newList.append(secondList[i])
+            newList.append(firstList[i])
+            newList.append(secondList[i])
 
         return newList
